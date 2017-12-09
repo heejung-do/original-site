@@ -78,7 +78,27 @@
             <section id="works" class="late">
         <h2 class="text-center">Works</h2>
         <div class="works-box">
-            <a href="#">
+            <a id="demo01" href="#animatedModal">
+                <img src="images/work/work-top.png" alt="">
+                <div class="works-box-inner">
+                    <div class="text-center">
+                        <h3 >株式会社きらめき コーポレートサイト</h3>
+                    </div>
+                </div>
+                </a>
+        </div>
+        <div class="works-box">
+            <a id="demo01" href="#animatedModal">
+                <img src="images/work/work-top.png" alt="">
+                <div class="works-box-inner">
+                    <div class="text-center">
+                        <h3 >株式会社きらめき コーポレートサイト</h3>
+                    </div>
+                </div>
+                </a>
+        </div>
+        <div class="works-box">
+            <a id="demo01" href="#animatedModal">
                 <img src="images/work/work-top.png" alt="">
                 <div class="works-box-inner">
                     <div class="text-center">
@@ -88,13 +108,13 @@
                 </a>
         </div>
     </section>
-<a id="demo01" href="#animatedModal">DEMO01</a>
 
     <!--DEMO01-->
     <div id="animatedModal">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
         <div class="close-animatedModal"> 
-            CLOSE MODAL
+          <span class="modal-close-1"></span>
+          <span class="modal-close-2"></span>
         </div>
             
         <div class="modal-content">
@@ -105,7 +125,11 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="animatedModal.min.js"></script>
 <script >
-$("#demo01").animatedModal();
+$("#demo01").animatedModal({
+        animatedIn:'zoomIn',
+        animatedOut:'bounceOutDown',
+        color:'#ffffff',
+    });
 </script>
 <script>
 $(function(){

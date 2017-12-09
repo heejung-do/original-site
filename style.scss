@@ -321,7 +321,7 @@ p{
 }
 #works h2
 {
-    margin-bottom: 50px;
+    text-align: center;
 }
 #works .works-box
 {
@@ -334,6 +334,8 @@ p{
 {
     position: relative;
     display: block;
+    text-decoration: none;
+    color: white;
 }
 #works .works-box a .works-box-inner
 {
@@ -343,7 +345,7 @@ p{
     display: none;
     height: 100%;
     color: #fff;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(226,183,210,1);
 }
 #works .works-box a .works-box-inner div
 {
@@ -358,39 +360,23 @@ p{
 }
 #works .works-box a .works-box-inner h3
 {
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: bold;
     margin: 0 0 5px;
-}
-#works .works-box a .works-box-inner small
-{
-    font-size: 1rem;
-    display: block;
-    margin-bottom: 15px;
-}
-#works .works-box a .works-box-inner .button-readmore
-{
-    font-size: 1rem;
-    font-weight: bold;
-    display: block;
-    width: 180px;
-    margin: auto;
-    padding: 5px 0;
     text-align: center;
-    color: #fff;
-    -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
-    background-color: #14c0c9;
-}
-#works .works-box a .works-box-inner .button-readmore:hover
-{
-    background-color: #0f949b;
+    padding-top: 15%;
 }
 #works .works-box a:hover .works-box-inner
 {
+    position: absolute;
+    top: 20%;
+    left: 21%;
+    height: 60%;
+    width: 60%;
+    color: #fff;
+    background-color: #e2b7d2;
     display: block;
-    width: 100%;
+    border-radius: 50%;
 }
 #works .works-box img
 {
@@ -404,4 +390,24 @@ p{
     clear: both;
     content: '';
 }
-
+#animatedModal{
+    .close-animatedModal{
+        width: 50px;
+        height: 30px;
+        margin-top: 1%;
+        margin-left: 95%;
+        cursor: pointer;
+    span{
+  width: 30px;
+  height: 1px;
+  background-color: #4c4c4c;
+  display: block;
+    }
+.modal-close-1{
+  transform: translateY(9px) rotate(45deg);
+}
+.modal-close-2{
+    transform: translateY(9px) rotate(-45deg);
+}
+}
+}
