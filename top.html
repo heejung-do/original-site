@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+        <meta charset="utf-8">
+        <title>Web Designer - Do Heejung</title>
+        <meta name="description" content="ど ひじょんのポートフォリオサイトです。大阪を中心に活動しています。">
+        <meta name="keywords" content="Web, デザイン, デザイナー, ポートフォリオ, Web制作">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    </head>
+
+     <body>
+        <div class="head clearfix late">
+            <div class="top_head">
+            <h1 ><a class="abel" href="top.html">You Only Live Once</a></h1>
+        <div class="hamburger" id="hamburger-1">
+          <span class="line first_li"></span>
+          <span class="line second_li"></span>
+          <span class="line"></span>
+           </div>
+           </div>
+           </div>
+           
+            <section id="top_area">
+            <div id="top">
+            <div class="textcontainer">
+           <span class="particletext bubbles Yesteryear">Do Heejung</span>
+           </div>
+           </div>
+           </section>
+           
+            <section id="about_area" class="late">
+           <div id="about">
+           <div class="wrapper-fixed">
+                 <div class="about_me clearfix">
+            <h1 class="abel">' About Me ! '</h1>
+                <p class="first_p">都 姫廷</p>
+                <p>ど ひじょん</p>
+                <p>1993年生まれ 韓国ソウル出身。現在、大阪在住</p>
+                <p>ソウル芸術大学卒業</p>
+                <p>日本で暮らしてから8年</p>
+                <p>現在、WEBデザイナ―への転職を目指しております！</p>
+                <p>好きなことは写真を撮ること</p>
+                 </div>
+                 </div>
+                 </div>
+                 </section>
+                 
+          <section id="skills_area" class="late">
+        <h2 class="abel">' What i can '</h2>
+             <div id="skills">
+               <div class="skill-box clearfix">
+                   <div class="skill-1">
+                <i aria-hidden="true" class="skill-icon fa fa-laptop"></i>
+                <h3 class="text-center">Web</h3>
+                <p>HTML/CSSでのコーディングができます。<br>
+                JavaScript、PHP、WordPressも現在勉強中です。</p>
+                </div>
+                <div class="skill-1">
+                <i aria-hidden="true" class="skill-icon fa fa-file-image-o"></i>
+                <h3 class="text-center">PhotoShop</h3>
+                <p>PhotoShopを使用して写真や画像編集、加工ができます。<br>
+                基礎的な操作が可能で現在勉強中です。</p>
+                </div>
+                <div class="skill-1">
+                <i aria-hidden="true" class="skill-icon fa fa-globe"></i>
+                <h3 class="text-center">Japanese,Korean</h3>
+                <p >日本で暮らしてから8年くらいになります。<br>
+                日本語はビジネスレベル、韓国語はネイティブスピーカーです。</p>
+                </div>
+            </div>
+            </div>
+            </section>
+            
+            <section id="works" class="late">
+        <h2 class="text-center">Works</h2>
+        <div class="works-box">
+            <a href="#">
+                <img src="images/work/work-top.png" alt="">
+                <div class="works-box-inner">
+                    <div class="text-center">
+                        <h3 >株式会社きらめき コーポレートサイト</h3>
+                    </div>
+                </div>
+                </a>
+        </div>
+    </section>
+<a id="demo01" href="#animatedModal">DEMO01</a>
+
+    <!--DEMO01-->
+    <div id="animatedModal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-animatedModal"> 
+            CLOSE MODAL
+        </div>
+            
+        <div class="modal-content">
+                  <!--Your modal content goes here-->
+        </div>
+    </div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="animatedModal.min.js"></script>
+<script >
+$("#demo01").animatedModal();
+</script>
+<script>
+$(function(){
+    $(".late").css({opacity:'0'});
+    setTimeout(function(){
+        $(".late").stop().animate({opacity:'1'},1000);
+    },3000);
+});
+</script>
+<script>
+$(document).scroll(function() {
+  $(".wrapper-fixed").css({
+    "background-position-y": (-$(this).scrollTop()/2)
+  })
+});
+</script>
+<script>
+        function initparticles() {
+   bubbles();
+   }
+   </script>
+<script>function bubbles() {
+    $.each($(".particletext.bubbles"), function(){
+      var bubblecount = ($(this).width()/50)*10;
+      for(var i = 0; i <= bubblecount; i++) {
+         var size = ($.rnd(40,80)/10);
+         $(this).append('<span class="particle" style="top:' + $.rnd(20,80) + '%; left:' + $.rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + ($.rnd(0,30)/10) + 's;"></span>');
+      }
+   });
+}
+</script>
+<script>
+jQuery.rnd = function(m,n) {
+      m = parseInt(m);
+      n = parseInt(n);
+      return Math.floor( Math.random() * (n - m + 1) ) + m;
+}
+
+initparticles();
+</script>
+<script>
+    $(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+  });
+});
+</script>
+ </body>
+ </html>
