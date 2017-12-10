@@ -158,7 +158,8 @@ html {
     #works .works-box {
       width: 100%;
       height: auto;
-      background-color: #a1a8b3; }
+      background-color: #a1a8b3;
+      margin: 2% 0; }
       #works .works-box a {
         position: relative;
         display: block;
@@ -185,7 +186,8 @@ html {
     #works .works-box02 {
       width: 100%;
       height: auto;
-      background-color: #eaeaea; }
+      background-color: #eaeaea;
+      margin: 2% 0; }
       #works .works-box02 a {
         position: relative;
         display: block;
