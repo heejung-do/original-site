@@ -11,14 +11,28 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/skeleton.css">
     </head>
-
+    
      <body>
-        <div id="head" class="late">
+        <div id="head">
+            <div id="sp-menu-wrap">
+                <div class="row">
+                <div class="twelve columns">
+                    <div class="sp_menu_area">
+                    <a class="name" href="#top_head"><img class="u-max-full-width" src="images/sp_top.png" /></a>
+            <div id="sp_menu"><img class="u-max-full-width" src="images/sp_menu.png" alt="sp_navi" /></div>
+            <ul class="sp_menu_toggle">
+              <li><a class="Tangerine" href=""> ' Home '</a></li>
+              <li><a class="Tangerine" href="">' About Me '</a></li>
+              <li><a class="Tangerine" href="">'Portfolio '</a></li>
+              <li><a class="Tangerine" href="">' Contact '</a></li>
+          </ul>
+         </div>
+         </div>
+        </div>
+        </div>
+        <div id="pc_menu_warp" class="late">
             <div class="top_head">
-            <div class="six columns">
             <h1 ><a class="abel" href="top.html">You Only Live Once</a></h1>
-            </div>
-            <div class="six columns">
             <nav class="menu clearfix">
             <div class="menu1"></div>
             <div class="menu2"></div>
@@ -213,8 +227,10 @@
      <footer>
          <div id="footer_area" class="late">
               <div class="twelve columns">
+                  <div class="foot">
                 <p class="abel">@2017 Portfolio DoHeejung all rights reserved.</p>
                 </div>
+             </div>
              </div>
         </footer>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -307,6 +323,13 @@ jQuery(function($){
    			 }
 			});
         });
+</script>
+<script>
+    $(document).ready(function(){
+  $("#sp_menu").click(function(){
+    $(".sp_menu_toggle").slideToggle();
+  });
+});
 </script>
 </body>
  </html>
