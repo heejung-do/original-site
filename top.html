@@ -9,21 +9,32 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+        <link rel="stylesheet" href="css/skeleton.css">
     </head>
 
      <body>
-        <div class="head clearfix late">
+        <div id="head" class="late">
             <div class="top_head">
+            <div class="six columns">
             <h1 ><a class="abel" href="top.html">You Only Live Once</a></h1>
-        <div class="hamburger" id="hamburger-1">
-          <span class="line first_li"></span>
-          <span class="line second_li"></span>
-          <span class="line"></span>
-           </div>
-           </div>
-           </div>
-           
+            </div>
+            <div class="six columns">
+            <nav class="menu clearfix">
+            <div class="menu1"></div>
+            <div class="menu2"></div>
+            <div class="menu3"></div>
+           </nav>
+          <div id="menu-Wrap">
+           <ul class="Wrap-menu">
+    <li class="Tangerine"><a href="#top_area">' Home '</a></li>
+    <li class="Tangerine"><a href="#about_area">' About Me '</a></li>
+    <li class="Tangerine"><a href="#works">' Protfolio '</a></li>
+    <li class="Tangerine"><a href="#contact_area">' Contact '</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
             <section id="top_area">
             <div id="top">
             <div class="textcontainer">
@@ -33,6 +44,7 @@
            </section>
            
             <section id="about_area" class="late">
+            <div class="twelve columns">
            <div id="about">
            <div class="wrapper-fixed">
                  <div class="about_me clearfix">
@@ -47,88 +59,190 @@
                  </div>
                  </div>
                  </div>
+                 </div>
                  </section>
                  
           <section id="skills_area" class="late">
         <h2 class="abel">' What i can '</h2>
              <div id="skills">
                <div class="skill-box clearfix">
+                   <div class="four columns">
                    <div class="skill-1">
                 <i aria-hidden="true" class="skill-icon fa fa-laptop"></i>
                 <h3 class="text-center">Web</h3>
                 <p>HTML/CSSでのコーディングができます。<br>
                 JavaScript、PHP、WordPressも現在勉強中です。</p>
                 </div>
+                </div>
+                <div class="four columns">
                 <div class="skill-1">
                 <i aria-hidden="true" class="skill-icon fa fa-file-image-o"></i>
                 <h3 class="text-center">PhotoShop</h3>
                 <p>PhotoShopを使用して写真や画像編集、加工ができます。<br>
                 基礎的な操作が可能で現在勉強中です。</p>
                 </div>
+                </div>
+                <div class="four columns">
                 <div class="skill-1">
                 <i aria-hidden="true" class="skill-icon fa fa-globe"></i>
                 <h3 class="text-center">Japanese,Korean</h3>
                 <p >日本で暮らしてから8年くらいになります。<br>
                 日本語はビジネスレベル、韓国語はネイティブスピーカーです。</p>
                 </div>
+                </div>
             </div>
             </div>
             </section>
             
+            <h2 class="work-text late abel"> ' Works '</h2>
             <section id="works" class="late">
-        <h2 class="text-center">Works</h2>
+        <div class="four columns">
         <div class="works-box">
             <a id="demo01" href="#animatedModal">
-                <img src="images/work/work-top.png" alt="">
+                <img src="images/work/work-real02.png" alt="">
                 <div class="works-box-inner">
                     <div class="text-center">
-                        <h3 >株式会社きらめき コーポレートサイト</h3>
+                        <h3>架空ショッピングサイト<br>
+                             Apple Verry</h3>
                     </div>
                 </div>
                 </a>
         </div>
-        <div class="works-box">
-            <a id="demo01" href="#animatedModal">
-                <img src="images/work/work-top.png" alt="">
+        </div>
+        <div class="four columns">
+                <div class="works-box02">
+            <a id="demo02" href="#Modal02">
+                <img src="images/work/work-real03.png" alt="">
                 <div class="works-box-inner">
                     <div class="text-center">
-                        <h3 >株式会社きらめき コーポレートサイト</h3>
+                        <h3>架空ブランド<br>
+                        Unique</h3>
                     </div>
                 </div>
                 </a>
         </div>
+        </div>
+        <div class="four columns">
         <div class="works-box">
-            <a id="demo01" href="#animatedModal">
-                <img src="images/work/work-top.png" alt="">
+            <a id="demo03" href="#Modal03">
+                <img src="images/work/work-real.png" alt="">
                 <div class="works-box-inner">
                     <div class="text-center">
-                        <h3 >株式会社きらめき コーポレートサイト</h3>
+                        <h3>架空会社<br>
+                        株式会社サンプル</h3>
                     </div>
                 </div>
                 </a>
+        </div>
         </div>
     </section>
 
-    <!--DEMO01-->
     <div id="animatedModal">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-        <div class="close-animatedModal"> 
-          <span class="modal-close-1"></span>
-          <span class="modal-close-2"></span>
-        </div>
-            
+        <div class="close-animatedModal">
+          <img src="images/modal-close.png" alt=""/>
+          </div>
         <div class="modal-content">
-                  <!--Your modal content goes here-->
+            <h1 class="abel">架空ショッピングサイト<span class="Open-sans">' Apple Verry '</span></h1>
+            <ul class="capture clearfix">
+                <li class="capture-pic">
+                <img src="images/work/work-shop-1.png" alt="" />
+                </li>
+                <li class="capture-sp">
+                <img src="images/work/work-shop-sp.png" alt="" />
+                </li>
+                <li class="capture-pic">
+                <img src="images/work/work-shop-2.png" alt="" />
+                </li>
+                <li class="capture-pic">
+                <img src="images/work/work-shop-3.png" alt="" />
+                </li>
+            </ul>
         </div>
     </div>
-
+    <div id="Modal02">
+        <div class="close-Modal02">
+          <img src="images/modal-close.png" alt=""/>
+          </div>
+        <div class="modal-content clearfix">
+            <h1 class="abel">架空ブランド<span class="Open-sans">'Unique'ポスター制作</span></h1>
+            <p>Illustrator,PhotoShopを使用して制作しました</p>
+            <p>コンセプトは夏に発売されるコカ・コーラとコラボレーションした新作のポスターです</p>
+            <ul class="capture clearfix">
+                <li class="capture-pic">
+                    <img src="images/work/poster-1.jpg" alt="" />
+                </li>
+                <li class="capture-pic">
+                    <img src="images/work/poster-2.jpg" alt="" />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="Modal03">
+        <div class="close-Modal03">
+         <img src="images/modal-close.png" alt=""/>
+          </div>
+        <div class="modal-content03">
+            <h1 class="abel">架空会社<span class="Open-sans">' 株式会社サンプル ' コーポレートサイト</span></h1>
+            <ul class="capture03 clearfix">
+                <li class="capture-pic03">
+                    <img src="images/work/work-company-1.png" alt=""/>
+                </li>
+                <li class="capture-sp03">
+                    <img src="images/work/work-company-sp.png" alt=""/>
+                </li>
+                <li class="capture-pic03">
+                    <img src="images/work/work-company-2.png" alt=""/>
+                </li>
+                <li class="capture-pic03">
+                    <img src="images/work/work-company-3.png" alt=""/>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section id="contact_area" class="late">
+        <div class="twelve columns">
+        <div class="contact">
+            <h1 class="abel">' Contact Me ! '</h1>
+            <ul class="contact_ul">
+            <li><a href="mailto:hjcham2@gmail.com?subject=お問い合わせ&amp;body=本文"><i aria-hidden="true" class="contact-icon fa fa-envelope-o"></i></a></li>
+            <li><a href="https://www.instagram.com/summed_o"><i aria-hidden="true" class="contact-icon fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        </div>
+    </section>
+     <footer>
+         <div id="footer_area" class="late">
+              <div class="twelve columns">
+                <p class="abel">@2017 Portfolio DoHeejung all rights reserved.</p>
+                </div>
+             </div>
+        </footer>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="animatedModal.min.js"></script>
+<script>
+$("#demo03").animatedModal({
+        modalTarget:'Modal03',
+        animatedIn:'zoomIn',
+        animatedOut:'bounceOutDown',
+        color:'#F9F9F9',
+        overflow:'auto',
+    });
+</script>
+<script>
+$("#demo02").animatedModal({
+        modalTarget:'Modal02',
+        animatedIn:'zoomIn',
+        animatedOut:'bounceOutDown',
+        color:'#F9F9F9',
+        overflow:'auto',
+    });
+</script>
 <script >
 $("#demo01").animatedModal({
         animatedIn:'zoomIn',
         animatedOut:'bounceOutDown',
-        color:'#ffffff',
+        color:'#F9F9F9',
+        overflow:'auto',
     });
 </script>
 <script>
@@ -171,11 +285,28 @@ jQuery.rnd = function(m,n) {
 initparticles();
 </script>
 <script>
-    $(document).ready(function(){
-  $(".hamburger").click(function(){
-    $(this).toggleClass("is-active");
-  });
+$(function(){
+    $(".menu").click(function(){
+        $(".menu1").toggleClass("menuclick1")
+    });
+    $(".menu").click(function(){
+        $(".menu2").toggleClass("menuclick2")
+    });
+    $(".menu").click(function(){
+        $(".menu3").toggleClass("menuclick3")
+    }); 
 });
 </script>
- </body>
+<script>
+jQuery(function($){
+			$('.menu').click(function(){
+   			 if ($('#menu-Wrap').css('display') == 'none') {
+        	$('#menu-Wrap').slideDown('fast');
+    		} else {
+       		 $('#menu-Wrap').slideUp('fast');
+   			 }
+			});
+        });
+</script>
+</body>
  </html>
