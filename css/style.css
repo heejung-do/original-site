@@ -236,69 +236,127 @@ html {
   #animatedModal .close-Modal03,
   #Modal03 .close-animatedModal,
   #Modal03 .close-Modal03 {
-    margin-left: 90%;
+    margin-left: 85%;
     cursor: pointer;
     position: fixed; }
     #animatedModal .close-animatedModal img,
     #animatedModal .close-Modal03 img,
     #Modal03 .close-animatedModal img,
     #Modal03 .close-Modal03 img {
-      width: 50%;
+      width: 40%;
       padding-top: 25%;
       margin-right: 20%; }
   #animatedModal .modal-content,
   #animatedModal .modal-content03,
   #Modal03 .modal-content,
   #Modal03 .modal-content03 {
-    padding: 10% 2% 5%; }
+    padding: 20% 2% 5%; }
     #animatedModal .modal-content h1,
     #animatedModal .modal-content03 h1,
     #Modal03 .modal-content h1,
     #Modal03 .modal-content03 h1 {
       font-family: sans-serif;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: initial;
-      padding: 0 8% 2%;
+      padding: 0 8% 7%;
       margin: 0; }
       #animatedModal .modal-content h1 span,
       #animatedModal .modal-content03 h1 span,
       #Modal03 .modal-content h1 span,
       #Modal03 .modal-content03 h1 span {
         font-size: 1.5rem;
-        padding: 0 2%; }
-    #animatedModal .modal-content .capture .capture-pic,
-    #animatedModal .modal-content03 .capture .capture-pic,
-    #Modal03 .modal-content .capture .capture-pic,
-    #Modal03 .modal-content03 .capture .capture-pic {
-      width: 100%;
-      height: auto;
-      display: inline-block; }
-      #animatedModal .modal-content .capture .capture-pic img,
-      #animatedModal .modal-content03 .capture .capture-pic img,
-      #Modal03 .modal-content .capture .capture-pic img,
-      #Modal03 .modal-content03 .capture .capture-pic img {
+        padding: 0 2%;
+        font-weight: bold; }
+    #animatedModal .modal-content .capture,
+    #animatedModal .modal-content .capture03,
+    #animatedModal .modal-content03 .capture,
+    #animatedModal .modal-content03 .capture03,
+    #Modal03 .modal-content .capture,
+    #Modal03 .modal-content .capture03,
+    #Modal03 .modal-content03 .capture,
+    #Modal03 .modal-content03 .capture03 {
+      list-style: none; }
+      #animatedModal .modal-content .capture .capture-pic,
+      #animatedModal .modal-content .capture .capture-pic03,
+      #animatedModal .modal-content .capture03 .capture-pic,
+      #animatedModal .modal-content .capture03 .capture-pic03,
+      #animatedModal .modal-content03 .capture .capture-pic,
+      #animatedModal .modal-content03 .capture .capture-pic03,
+      #animatedModal .modal-content03 .capture03 .capture-pic,
+      #animatedModal .modal-content03 .capture03 .capture-pic03,
+      #Modal03 .modal-content .capture .capture-pic,
+      #Modal03 .modal-content .capture .capture-pic03,
+      #Modal03 .modal-content .capture03 .capture-pic,
+      #Modal03 .modal-content .capture03 .capture-pic03,
+      #Modal03 .modal-content03 .capture .capture-pic,
+      #Modal03 .modal-content03 .capture .capture-pic03,
+      #Modal03 .modal-content03 .capture03 .capture-pic,
+      #Modal03 .modal-content03 .capture03 .capture-pic03 {
         width: 100%;
-        height: auto; }
-    #animatedModal .modal-content .capture .capture-sp,
-    #animatedModal .modal-content03 .capture .capture-sp,
-    #Modal03 .modal-content .capture .capture-sp,
-    #Modal03 .modal-content03 .capture .capture-sp {
-      width: 100%;
-      height: auto;
-      display: inline-block; }
-      #animatedModal .modal-content .capture .capture-sp img,
-      #animatedModal .modal-content03 .capture .capture-sp img,
-      #Modal03 .modal-content .capture .capture-sp img,
-      #Modal03 .modal-content03 .capture .capture-sp img {
+        height: auto;
+        display: inline-block; }
+        #animatedModal .modal-content .capture .capture-pic img,
+        #animatedModal .modal-content .capture .capture-pic03 img,
+        #animatedModal .modal-content .capture03 .capture-pic img,
+        #animatedModal .modal-content .capture03 .capture-pic03 img,
+        #animatedModal .modal-content03 .capture .capture-pic img,
+        #animatedModal .modal-content03 .capture .capture-pic03 img,
+        #animatedModal .modal-content03 .capture03 .capture-pic img,
+        #animatedModal .modal-content03 .capture03 .capture-pic03 img,
+        #Modal03 .modal-content .capture .capture-pic img,
+        #Modal03 .modal-content .capture .capture-pic03 img,
+        #Modal03 .modal-content .capture03 .capture-pic img,
+        #Modal03 .modal-content .capture03 .capture-pic03 img,
+        #Modal03 .modal-content03 .capture .capture-pic img,
+        #Modal03 .modal-content03 .capture .capture-pic03 img,
+        #Modal03 .modal-content03 .capture03 .capture-pic img,
+        #Modal03 .modal-content03 .capture03 .capture-pic03 img {
+          width: 100%;
+          height: auto; }
+      #animatedModal .modal-content .capture .capture-sp,
+      #animatedModal .modal-content .capture .capture-sp03,
+      #animatedModal .modal-content .capture03 .capture-sp,
+      #animatedModal .modal-content .capture03 .capture-sp03,
+      #animatedModal .modal-content03 .capture .capture-sp,
+      #animatedModal .modal-content03 .capture .capture-sp03,
+      #animatedModal .modal-content03 .capture03 .capture-sp,
+      #animatedModal .modal-content03 .capture03 .capture-sp03,
+      #Modal03 .modal-content .capture .capture-sp,
+      #Modal03 .modal-content .capture .capture-sp03,
+      #Modal03 .modal-content .capture03 .capture-sp,
+      #Modal03 .modal-content .capture03 .capture-sp03,
+      #Modal03 .modal-content03 .capture .capture-sp,
+      #Modal03 .modal-content03 .capture .capture-sp03,
+      #Modal03 .modal-content03 .capture03 .capture-sp,
+      #Modal03 .modal-content03 .capture03 .capture-sp03 {
         width: 100%;
-        height: auto; }
+        height: auto;
+        display: inline-block; }
+        #animatedModal .modal-content .capture .capture-sp img,
+        #animatedModal .modal-content .capture .capture-sp03 img,
+        #animatedModal .modal-content .capture03 .capture-sp img,
+        #animatedModal .modal-content .capture03 .capture-sp03 img,
+        #animatedModal .modal-content03 .capture .capture-sp img,
+        #animatedModal .modal-content03 .capture .capture-sp03 img,
+        #animatedModal .modal-content03 .capture03 .capture-sp img,
+        #animatedModal .modal-content03 .capture03 .capture-sp03 img,
+        #Modal03 .modal-content .capture .capture-sp img,
+        #Modal03 .modal-content .capture .capture-sp03 img,
+        #Modal03 .modal-content .capture03 .capture-sp img,
+        #Modal03 .modal-content .capture03 .capture-sp03 img,
+        #Modal03 .modal-content03 .capture .capture-sp img,
+        #Modal03 .modal-content03 .capture .capture-sp03 img,
+        #Modal03 .modal-content03 .capture03 .capture-sp img,
+        #Modal03 .modal-content03 .capture03 .capture-sp03 img {
+          width: 100%;
+          height: auto; }
 
   #Modal02 .close-Modal02 {
-    margin-left: 90%;
+    margin-left: 85%;
     cursor: pointer;
     position: fixed; }
     #Modal02 .close-Modal02 img {
-      width: 60%;
+      width: 40%;
       padding-top: 25%; }
   #Modal02 .modal-content {
     padding: 20% 2% 5%; }
@@ -310,11 +368,14 @@ html {
       margin: 0; }
       #Modal02 .modal-content h1 span {
         font-size: 1.5rem;
-        padding: 0 2%; }
+        padding: 0 2%;
+        font-weight: bold; }
     #Modal02 .modal-content p {
       margin: 0;
       font-size: 1.2rem;
       padding: 0 13%; }
+    #Modal02 .modal-content p:nth-child(3) {
+      padding-bottom: 10%; }
     #Modal02 .modal-content .capture .capture-pic {
       width: 80%;
       height: auto;

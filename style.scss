@@ -289,31 +289,35 @@ a:hover img {
 #Modal03 {
 .close-animatedModal,
 .close-Modal03 {
-    margin-left: 90%;
+    margin-left: 85%;
     cursor: pointer;
     position: fixed;
     img{
-    width: 50%;
+    width: 40%;
     padding-top: 25%;
     margin-right: 20%;
 }
 }
 .modal-content,
 .modal-content03{
-    padding: 10% 2% 5%;
+    padding: 20% 2% 5%;
     h1{
     font-family: sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: initial;
-    padding: 0 8% 2%;
+    padding: 0 8% 7%;
     margin: 0;
     span{
     font-size: 1.5rem;
     padding: 0 2%;
+    font-weight: bold;
     }
     }
-    .capture{
-    .capture-pic{
+    .capture,
+    .capture03{
+      list-style: none;
+    .capture-pic,
+    .capture-pic03{
     width: 100%;
     height: auto;
     display: inline-block;
@@ -322,7 +326,8 @@ a:hover img {
     height: auto;
     }
     }
-    .capture-sp{
+    .capture-sp,
+    .capture-sp03{
     width: 100%;
     height: auto;
     display: inline-block;
@@ -336,11 +341,11 @@ a:hover img {
 }
 #Modal02{
   .close-Modal02,{
-    margin-left: 90%;
+    margin-left: 85%;
     cursor: pointer;
     position: fixed;
     img{
-    width: 60%;
+    width: 40%;
     padding-top: 25%;
 }
 }
@@ -355,12 +360,16 @@ a:hover img {
     span{
     font-size: 1.5rem;
     padding: 0 2%;
+    font-weight: bold;
     }
     }
     p{
     margin: 0;
     font-size: 1.2rem;
     padding: 0 13%;
+    }
+    p:nth-child(3){
+      padding-bottom: 10%;
     }
     .capture{
     .capture-pic{
