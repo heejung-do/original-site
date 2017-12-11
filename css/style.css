@@ -35,7 +35,7 @@ html {
   #head #pc_menu_warp {
     display: none; }
   #head #sp-menu-wrap {
-    margin: 2% 0; }
+    margin: 3% 0; }
     #head #sp-menu-wrap .sp_menu_area .name {
       width: 70%;
       display: inline-block;
@@ -65,51 +65,50 @@ html {
         width: 100%;
         display: block; }
 
-  #about_area #about {
-    height: 550px; }
-    #about_area #about .wrapper-fixed {
-      position: fixed;
-      position: relative;
+  #about_area #about .wrapper-fixed {
+    position: fixed;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/about/about_bg.png");
+    background-position: center;
+    transition: all 0.1s ease 0s;
+    margin: 2% 0 5% 0; }
+    #about_area #about .wrapper-fixed .about_me {
+      position: absolute;
+      bottom: 0;
       right: 0;
       left: 0;
       top: 0;
       width: 100%;
-      height: 500px;
-      background-image: url("../images/about/about_bg.png");
-      background-position: center;
-      transition: all 0.1s ease 0s; }
-      #about_area #about .wrapper-fixed .about_me {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%; }
-        #about_area #about .wrapper-fixed .about_me h1 {
-          text-align: center;
-          color: white;
-          margin-top: 5%;
-          font-size: 6rem;
-          letter-spacing: 0.5rem; }
-        #about_area #about .wrapper-fixed .about_me .first_p {
-          padding-top: 3%; }
-        #about_area #about .wrapper-fixed .about_me p {
-          color: #f8f3e7;
-          letter-spacing: 0.1rem;
-          padding-left: 10%;
-          margin: 0;
-          font-size: 1.3rem; }
+      height: 100%; }
+      #about_area #about .wrapper-fixed .about_me h1 {
+        text-align: center;
+        color: white;
+        margin-top: 10%;
+        font-size: 5rem;
+        letter-spacing: 0.5rem; }
+      #about_area #about .wrapper-fixed .about_me .first_p {
+        padding-top: 10%; }
+      #about_area #about .wrapper-fixed .about_me p {
+        color: #f8f3e7;
+        letter-spacing: 0.1rem;
+        padding-left: 10%;
+        margin: 0;
+        font-size: 1.3rem; }
 
   #skills_area {
     margin-top: 140%; }
     #skills_area h2 {
       color: #4c4c4c;
       margin: 0;
-      padding-bottom: 2%;
+      padding-bottom: 5%;
       background-color: white;
       text-align: center;
-      font-size: 6rem;
+      font-size: 4rem;
       letter-spacing: 0.5rem; }
     #skills_area #skills {
       background-color: #ffffff;
@@ -147,10 +146,10 @@ html {
   .work-text {
     color: #4c4c4c;
     margin: 0;
-    padding-bottom: 2%;
+    padding: 4% 0;
     background-color: white;
     text-align: center;
-    font-size: 6rem;
+    font-size: 4rem;
     letter-spacing: 0.5rem; }
 
   #works {
@@ -327,46 +326,43 @@ html {
       #Modal02 .modal-content .capture .capture-pic img {
         width: 100%; }
 
-  #contact_area {
+  #contact_area .contact {
     background-color: #fdfcf6;
-    height: 200px; }
-    #contact_area .contact {
+    padding: 2% 0;
+    height: 100%; }
+    #contact_area .contact h1 {
+      text-align: center;
+      color: #4c4c4c;
+      margin: 0;
       padding: 2% 0;
-      height: 100%; }
-      #contact_area .contact h1 {
-        text-align: center;
-        color: #4c4c4c;
-        margin: 0;
-        padding: 2% 0;
-        font-size: 5rem;
-        letter-spacing: 0.5rem; }
-      #contact_area .contact ul {
-        display: flex;
-        list-style: none;
-        margin-left: 34%;
-        padding-top: 3%; }
-        #contact_area .contact ul a {
+      font-size: 3rem;
+      letter-spacing: 0.5rem; }
+    #contact_area .contact ul {
+      list-style: none;
+      margin-left: 34%;
+      padding-top: 3%; }
+      #contact_area .contact ul li {
+        float: left; }
+        #contact_area .contact ul li a {
           text-decoration: none; }
-        #contact_area .contact ul li:nth-child(2) {
-          margin-left: 5%; }
-        #contact_area .contact ul i {
-          font-size: 3rem;
-          box-sizing: border-box;
-          width: 50px;
-          height: 50px;
-          margin-bottom: 5px;
-          padding-top: 10px;
-          text-align: center;
-          color: #fff;
-          border-radius: 50%;
-          background-color: #e2b7d2;
-          display: block; }
+      #contact_area .contact ul li:nth-child(2) {
+        margin-left: 5%; }
+      #contact_area .contact ul i {
+        font-size: 3rem;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        text-align: center;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #e2b7d2;
+        display: block; }
 
-  #footer_area {
-    background-color: #EAEAEA;
-    height: 30px;
-    margin-top: 3%; }
-    #footer_area p {
+  #footer_area .foot {
+    background-color: #EAEAEA; }
+    #footer_area .foot p {
       font-size: 1rem;
       margin: 0;
       text-align: center;
@@ -801,49 +797,49 @@ html {
         width: 100%;
         height: 50%; }
 
-  #contact_area {
+  #contact_area .contact {
     background-color: #fdfcf6;
-    height: 300px; }
-    #contact_area .contact {
-      padding: 2% 0; }
-      #contact_area .contact h1 {
-        text-align: center;
-        color: #4c4c4c;
-        margin: 0;
-        padding: 2% 0;
+    height: 250px;
+    padding: 2% 0; }
+    #contact_area .contact h1 {
+      text-align: center;
+      color: #4c4c4c;
+      margin: 0;
+      padding: 2% 0;
+      font-size: 3rem;
+      font-size: 6rem;
+      letter-spacing: 0.5rem; }
+    #contact_area .contact ul {
+      list-style: none;
+      margin-left: 45%;
+      padding-top: 3%; }
+      #contact_area .contact ul li {
+        float: left; }
+      #contact_area .contact ul a {
+        text-decoration: none; }
+      #contact_area .contact ul li:nth-child(2) {
+        margin-left: 2%; }
+      #contact_area .contact ul i {
         font-size: 3rem;
-        font-size: 6rem;
-        letter-spacing: 0.5rem; }
-      #contact_area .contact ul {
-        display: flex;
-        list-style: none;
-        margin-left: 45%;
-        padding-top: 3%; }
-        #contact_area .contact ul a {
-          text-decoration: none; }
-        #contact_area .contact ul li:nth-child(2) {
-          margin-left: 2%; }
-        #contact_area .contact ul i {
-          font-size: 3rem;
-          box-sizing: border-box;
-          width: 50px;
-          height: 50px;
-          margin-bottom: 5px;
-          padding-top: 10px;
-          text-align: center;
-          color: #fff;
-          border-radius: 50%;
-          background-color: #e2b7d2;
-          display: block; }
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        text-align: center;
+        color: #fff;
+        border-radius: 50%;
+        background-color: #e2b7d2;
+        display: block; }
 
-  #footer_area {
+  #footer_area .foot {
     background-color: #EAEAEA;
     height: 35px;
     margin-top: 2%; }
-    #footer_area p {
-      font-size: 1rem;
-      margin: 0;
-      text-align: center;
-      padding-top: 0.5%; } }
+  #footer_area p {
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+    padding-top: 1%; } }
 
 /*# sourceMappingURL=style.css.map */
