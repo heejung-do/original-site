@@ -21,10 +21,10 @@
                     <a class="name" href="#top_head"><img class="u-max-full-width" src="images/top/sp_top.png" /></a>
             <div id="sp_menu"><img class="u-max-full-width" src="images/top/sp_menu.png" alt="sp_navi" /></div>
             <ul class="sp_menu_toggle">
-              <li><a class="Tangerine" href=""> ' Home '</a></li>
-              <li><a class="Tangerine" href="">' About Me '</a></li>
-              <li><a class="Tangerine" href="">'Portfolio '</a></li>
-              <li><a class="Tangerine" href="">' Contact '</a></li>
+              <li><a class="Tangerine" href="#top_area"> ' Home '</a></li>
+              <li><a class="Tangerine" href="#about_area">' About Me '</a></li>
+              <li><a class="Tangerine" href="#works">'Portfolio '</a></li>
+              <li><a class="Tangerine" href="#contact_area">' Contact '</a></li>
           </ul>
          </div>
          </div>
@@ -108,7 +108,7 @@
             </div>
             </section>
             
-            <h2 class="work-text late abel"> ' Works '</h2>
+            <h2 class="work-text late abel"> ' Portfolio '</h2>
             <section id="works" class="late">
         <div class="four columns">
         <div class="works-box">
@@ -156,7 +156,7 @@
           <img src="images/modal-close.png" alt=""/>
           </div>
         <div class="modal-content">
-            <h1 class="abel">架空ショッピングサイト<span class="Open-sans">' Apple Verry '</span></h1>
+            <h1>架空ショッピングサイト</h1><h2 class="Bad-Scrip">' Apple Verry '</h2>
             <ul class="capture clearfix">
                 <li class="capture-pic">
                 <img src="images/work/work-shop-1.png" alt="" />
@@ -178,7 +178,7 @@
           <img src="images/modal-close.png" alt=""/>
           </div>
         <div class="modal-content clearfix">
-            <h1 class="abel">架空ブランド<span class="Open-sans">'Unique'ポスター制作</span></h1>
+            <h1>架空ブランド</h1><h2 class="Bad-Scrip">' Unique ' Poster</h2>
             <p>Illustrator,PhotoShopを使用して制作しました</p>
             <p>コンセプトは夏に発売されるコカ・コーラとコラボレーションした新作のポスターです</p>
             <ul class="capture clearfix">
@@ -196,7 +196,7 @@
          <img src="images/modal-close.png" alt=""/>
           </div>
         <div class="modal-content03">
-            <h1 class="abel">架空会社<br><span class="Open-sans">' 株式会社サンプル ' コーポレートサイト</span></h1>
+            <h1>架空会社</h1><h2 class="Bad-Scrip">' Sample Company ' Corporate Website</h2>
             <ul class="capture03 clearfix">
                 <li class="capture-pic03">
                     <img src="images/work/work-company-1.png" alt=""/>
@@ -265,8 +265,8 @@ $("#demo01").animatedModal({
 $(function(){
     $(".late").css({opacity:'0'});
     setTimeout(function(){
-        $(".late").stop().animate({opacity:'1'},1000);
-    },2000);
+        $(".late").stop().animate({opacity:'1'},500);
+    },1000);
 });
 </script>
 <script>
@@ -331,5 +331,11 @@ jQuery(function($){
   });
 });
 </script>
+<script>
+$(".Wrap-menu a").click(function() {　$('#menu-Wrap').hide();　});
+      </script>
+<script>
+$(".sp_menu_toggle a").click(function() {　$('.sp_menu_toggle').hide();　});
+      </script>
 </body>
  </html>
